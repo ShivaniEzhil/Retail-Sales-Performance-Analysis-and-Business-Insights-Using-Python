@@ -35,10 +35,14 @@ Retail-Intelligence-System
 ## 🛠️ Usage
 1. **Initialize Environment**:
    ```bash
-   pip install pandas numpy matplotlib seaborn scipy plotly streamlit
+   pip install -r requirements.txt
    ```
-2. **Explore Analysis**: Open `notebooks/retail_sales_analysis.ipynb` for the full business deep-dive.
-3. **Launch Intelligence Dashboard**:
+2. **Generate Data**: This project uses a synthetic business dataset. You must generate the data file before running the analysis:
+   ```bash
+   python src/generate_data.py
+   ```
+3. **Explore Analysis**: Open `notebooks/retail_sales_analysis.ipynb` for the full business deep-dive.
+4. **Launch Intelligence Dashboard**:
    ```bash
    streamlit run src/dashboard.py
    ```
