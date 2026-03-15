@@ -1,5 +1,7 @@
 # Retail Sales Intelligence: Actionable Business Insights
 
+[**🌐 View Live Intelligence Dashboard**](https://shivaniezhil-retail-sales-intelligence.streamlit.app/)
+
 ## 🎯 Project Objective
 This project transforms raw retail transaction data into an **Actionable Business Intelligence (BI) System**. Instead of simple exploratory analysis, it frames data as a solution to critical business problems: optimizing margins, retaining high-value customers, and predicting future revenue.
 
